@@ -1,0 +1,129 @@
+/* CSS biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup seperti HTML, berfungsi
+untuk memisahkan konten dari tampilan visualnya di situs CSS disini sintaks diawali dengan selector titik(.)
+yang digunakan untuk class */
+
+/* desain untuk class "header" pada tag img */
+.header img{
+    /* mendesain ukuran lebar margin, lebar gambar, dan tinggi gambar */
+    margin: 0 auto;
+    width: 1350px;
+    height: 200px;
+}
+
+/* desain untuk class "header" pada tag h1 */
+.header h1{
+    /* mendesain posisi h1, ukuran font, margin, warna, dan jenis font */
+    position: absolute;
+    font-size: 50px;
+    top: 23px;
+    left: 193px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* desain untuk class "header" pada tag p atau paragraf */
+.header p{
+    /* mendesain posisi pargraf, ukuran font, margin, warna, dan jenis font */
+    position: absolute;
+    font-size: 20px;
+    top: 102px;
+    left: 195px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* desain untuk tag-tag dengan class "bagiDua"*/
+.bagiDua{
+    /* mendesain margin, lebar box, ukuran dan warna border, padding, dan font yang digunakan di dalam box */
+    margin: 5px 5px 5px 190px;
+    width: 35%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Lucida Sans Unicode" sans-serif;
+}
+
+/* desain untuk tag-tag dengan class "bagiDua2"*/
+.bagiDua2{
+    /* mendesain margin, lebar box, ukuran dan warna border, padding, dan font yang digunakan di dalam box */
+    margin: 5px 0px 5px 0px;
+    width: 35%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Lucida Sans Unicode" sans-serif;
+}
+
+/* desain untuk tag-tag dengan class "bagiTiga"*/
+.bagiTiga{
+    /* mendesain margin, lebar box, ukuran dan warna border, padding, dan font yang digunakan di dalam box */
+    margin: 5px 5px 5px 190px;
+    width: 23%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Lucida Sans Unicode" sans-serif;
+}
+
+/* desain untuk tag-tag dengan class "bagiTiga2"*/
+.bagiTiga2{
+    /* mendesain margin, lebar box, ukuran dan warna border, padding, dan font yang digunakan di dalam box */
+    margin: 5px 5px 5px 0px;
+    width: 23%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Lucida Sans Unicode" sans-serif;
+}
+
+/* desain untuk tag-tag dengan class "bagiTiga3"*/
+.bagiTiga3{
+    /* mendesain margin, lebar box, ukuran dan warna border, padding, dan font yang digunakan di dalam box */
+    margin: 5px 0px 5px 0px;
+    width: 23.3%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Lucida Sans Unicode" sans-serif;
+}
+
+/* desain untuk tag-tag dengan class "bagiSatu"*/
+.bagiSatu{
+    /* mendesain margin, lebar box, ukuran dan warna border, padding, dan font yang digunakan di dalam box */
+    margin: 5px 5px 5px 190px;
+    width: 70.7%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Lucida Sans Unicode" sans-serif;   
+}
+
+/* desain untuk tag-tag dengan class "choose"*/
+.choose{
+    /* mendesain margin pada tag yang menggunakan class "choose" */
+    margin: 5px 0px 5px 190px
+}
+
+/* desain untuk tag-tag dengan class "choose2"*/
+.choose2{
+    /* mendesain margin pada tag yang menggunakan class "choose2" */
+    margin: 5px 0px 5px 42px
+}
+
+/* desain untuk tag-tag dengan class "submit"*/
+.submit{
+    /* mendesain background, margin, padding, ukuran dan warna border, dan font yang digunakan di dalam box */
+    background: brown;
+    padding: 6px 10px 6px 10px;
+    border: 2px solid brown;
+    border-radius: 3px;
+    color: white;
+    font-family: "Lucida Sans Unicode" sans-serif;
+    margin: 5px 0px 5px 190px
+}

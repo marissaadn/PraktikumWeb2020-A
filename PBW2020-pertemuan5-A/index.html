@@ -1,0 +1,74 @@
+<!-- <html></html> digunakan untuk mengawali setiap halaman code untuk mengidentifikasikan bahwa code tersebut
+menggunakan html -->
+<html>
+    <!-- <head></head> digunakan untuk menuliskan tag-tag yang akan dibaca oleh mesin, seperti title,
+    kode CSS, dan lain-lain -->
+    <head> 
+        <!-- <title></title> digunakan untuk menampilkan judul di title bar browser -->
+        <title>Halaman Pendaftaran</title>
+        <!-- Tag link untuk menghubungkan halaman web ke halaman css berjudul style.css yang terdapat di folder css -->
+        <link rel="stylesheet" href="css/style.css"/>
+        <!-- <link href='...' rel='shortcut icon'> digunakan untuk mengganti icon pada title bar browser
+        dengan gambar yang kita inginkan -->
+        <link href='icon2.png' rel='shortcut icon'>
+    </head>
+    <!-- <body></body> digunakan untuk mendefinisikan badan dokumen, wadah untuk semua konten yang terlihat,
+    seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dll. -->
+    <body>
+        <!-- tag div disini untuk mengelompokkan elemen atau tag-tag agar menjadi satu grup dengan class "header" -->
+        <div class="header">
+            <!-- import image untuk ditampilkan di dalam bagian div dengan -->
+            <img src="pic9.jpg">
+            <!-- header dengan tipe h1 sebagai judul -->
+            <h1>Halaman Pendaftaran</h1>
+            <!-- paragraf yang berisikan penjelasan pengisian form -->
+            <p>Pendaftaran sebagai peserta dalam RAKERWIL (Rapat Kerja Wilayah) Bali dan Nusa Tenggara 2020</p>
+        </div>
+        <!-- Membuat form dengan tag <form></form> dengan method "post" -->
+        <form action="" method="post">
+            <!-- menginputkan nama lengkap dengan tipe "text" dan class "bagiDua" yang sudah di desain di style.css -->
+            <input type="text" name="namaLengkap" class="bagiDua" placeholder="Nama Lengkap"/>
+             <!-- menginputkan nama panggilan dengan tipe "text" dan class "bagiDua2" yang sudah di desain di style.css -->
+            <input type="text" name="namaPanggilan" class="bagiDua2" placeholder="Nama Panggilan"/>
+             <!-- menginputkan no. telepon dengan tipe "text" dan class "bagiDua" yang sudah di desain di style.css -->
+            <input type="text" name="noTelepon" class="bagiDua" placeholder="No. Telepon"/>
+             <!-- menginputkan email dengan tipe "email" dan class "bagiDua" yang sudah di desain di style.css -->
+            <input type="email" name="email" class="bagiDua2" placeholder="Email"/>
+             <!-- menginputkan tanggal lahir dengan tipe "number" dan class "bagiTiga" yang sudah di desain di style.css -->
+            <input type="number" name="tanggalLahir" class="bagiTiga" placeholder="Tanggal Lahir"/>
+             <!-- menginputkan tempat lahir dengan tipe "text" dan class "bagiTiga2" yang sudah di desain di style.css -->
+            <input type="text" name="tempatLahir" class="bagiTiga2" placeholder="Tempat Lahir"/>
+             <!-- menginputkan nama lengkap dengan <select></select> dan class "bagiTiga3" yang sudah di desain di style.css -->
+            <select name="agama" class="bagiTiga3">
+                <option value="Agama">Agama</option>
+                <option value="Islam">Islam</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Kristen Katolik">Kristen Katolik</option>
+                <option value="Kristen Protestan">Kristen Protestan</option>
+                <option value="Budha">Budha</option>
+                <option value="Kong Hu Cu">Kong Hu Cu</option>
+            </select>
+             <!-- menginputkan universitas dengan tipe "text" dan class "bagiTiga" yang sudah di desain di style.css -->
+            <input type="text" name="universitas" class="bagiTiga" placeholder="Universitas"/>
+             <!-- menginputkan fakultas/jurusan dengan tipe "text" dan class "bagiTiga2" yang sudah di desain di style.css -->
+            <input type="text" name="fakultasJurusan" class="bagiTiga2" placeholder="Fakultas/Jurusan"/> 
+            <!-- menginputkan jabatan dengan tipe "text" dan class "bagiTiga3" yang sudah di desain di style.css -->
+            <input type="text" name="jabatan" class="bagiTiga3" placeholder="Jabatan"/>
+             <!-- menginputkan alamat asal dengan tipe "text" dan class "bagiSatu" yang sudah di desain di style.css -->
+            <input type="text" name="alamatAsal" class="bagiSatu" placeholder="Alamat Asal"/>
+            <br><br>
+            <!-- tag label untuk menampilkan keterangan dari file yang akan diinputkan -->
+            <label class="choose">Foto Almameter</label>
+            <label class="choose">Scan KTP</label>
+            <br>
+            <!-- mengupload file dengan menggunakan tag input tipe "file" dengan kelas choose dan choose2 yang sudah
+            di desain di style.css -->
+            <input type="file" class="choose"/>
+            <input type="file" class="choose2"/>
+            <br>
+            <!-- tag input tipe "submit" untuk menampilkan tombol "daftar" dengan class "submit" yang sudah di desain
+            di style.css -->
+            <input type="submit" value="Daftar" class="submit"/>
+        </form>
+    </body>
+</html>
