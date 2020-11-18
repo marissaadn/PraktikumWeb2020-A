@@ -1,0 +1,36 @@
+/* untuk mengatur style class inputNumb yaitu mengatur margin, lebar, box size, border, border-radius, padding, dan jenis font */
+.inputNumb{
+    margin: 5px 0px 10px 475px;
+    width: 20%;
+    box-sizing: border-box;
+    border: 1px solid rgb(8, 82, 45);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Lucida Sans Unicode" sans-serif;
+}
+/* untuk mengatur style class operator yaitu mengatur warna background, margin, lebar, tinggi, border, border-radius, padding, warna, dan jenis font */
+.operator{
+    background: rgb(30, 175, 103);
+    width: 50px;
+    height: 38px;
+    padding: 6px 10px 6px 10px;
+    border: 2px solid rgb(30, 175, 103);
+    border-radius: 5px;
+    color: black;
+    font-family: "Lucida Sans Unicode" sans-serif;
+    margin: 5px 0px 10px 10px
+}
+/* untuk mengatur style class finalResult yaitu mengatur margin. lebar, box size, border, border-radius, padding, dan jenis font */
+.finalResult{
+    margin: 5px 0px 200px 475px;
+    width: 29.5%;
+    box-sizing: border-box;
+    border: 1px solid rgb(8, 82, 45);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font: 10px "Lucida Sans Unicode" sans-serif;
+}
+/* untuk mengatur style body yaitu mengatur warna latar belakang */
+body{
+    background-color: beige;
+}

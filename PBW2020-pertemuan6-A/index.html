@@ -1,0 +1,57 @@
+<html> <!-- <html></html> digunakan untuk mengawali setiap halaman code untuk mengidentifikasikan bahwa code tersebut menggunakan html -->
+<head> <!-- <head></head> digunakan untuk menuliskan tag-tag yang akan dibaca oleh mesin, seperti title, kode CSS, dan lain-lain -->
+    <title>Kalkulator</title> <!-- <title></title> digunakan untuk menampilkan judul di title bar browser -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Tag link untuk menghubungkan halaman web ke halaman css berjudul style.css yang terdapat di folder css -->
+    <!-- <svript></script> digunakan untuk menulis atau menyisipkan script (seperti JavaScript) pada sisi client -->
+    <script language="JavaScript" type="text/javascript"> 
+        // function tambah() digunakan untuk menghitung operasi penjumlahan dengan mengambil nilai dari firstNumb dan secondNumb dan menghasilkan nilai total
+        function tambah(){
+            var firstNumb = parseFloat(document.getElementById("firstNumb").value);
+            var secondNumb = parseFloat(document.getElementById("secondNumb").value);
+            var result = document.getElementById("result");
+            var total;
+            total=firstNumb+secondNumb;
+            result.value=total;
+        }
+        // function kurang() digunakan untuk menghitung operasi pengurangan dengan mengambil nilai dari firstNumb dan secondNumb dan menghasilkan nilai total
+        function kurang(){
+            var firstNumb = parseFloat(document.getElementById("firstNumb").value);
+            var secondNumb = parseFloat(document.getElementById("secondNumb").value);
+            var result = document.getElementById("result");
+            var total;
+            total=firstNumb-secondNumb;
+            result.value=total;
+        }
+        // function kali() digunakan untuk menghitung operasi perkalian dengan mengambil nilai dari firstNumb dan secondNumb dan menghasilkan nilai total
+        function kali(){
+            var firstNumb = parseFloat(document.getElementById("firstNumb").value);
+            var secondNumb = parseFloat(document.getElementById("secondNumb").value);
+            var result = document.getElementById("result");
+            var total;
+            total=firstNumb*secondNumb;
+            result.value=total;
+        }
+        // function bagi() digunakan untuk menghitung operasi pembagian dengan mengambil nilai dari firstNumb dan secondNumb dan menghasilkan nilai total
+        function bagi(){
+            var firstNumb = parseFloat(document.getElementById("firstNumb").value);
+            var secondNumb = parseFloat(document.getElementById("secondNumb").value);
+            var result = document.getElementById("result");
+            var total;
+            total=firstNumb/secondNumb;
+            result.value=total;
+        } 
+    </script>
+</head>
+<body>
+    <h1 style="margin: 170px 0px 30px 585px; font-family: 'Lucida Sans Unicode'; color: rgb(8, 82, 45);">Kalkulator</h1> <!-- h1 menampilkan tulisan Kalkulator -->
+    <input class="inputNumb" type="text" id="firstNumb" placeholder="bil 1"> <!-- untuk menginputkan bilangan pertama -->
+    <input class="operator" type="button" value="+" onclick="tambah()"></input> <!-- untuk memanggil fungsi tambah() ketika button "+" di klik oleh user -->
+    <input class="operator" type="button" value="-" onclick="kurang()"></input> <!-- untuk memanggil fungsi kurang() ketika button "-" di klik oleh user -->
+    <br>
+    <input class="inputNumb" type="text" id="secondNumb" placeholder="bil 2"> <!-- untuk menginputkan bilangan kedua -->
+    <input class="operator" type="button" value="x" onclick="kali()"></input> <!-- untuk memanggil fungsi kali() ketika button "x" di klik oleh user -->
+    <input class="operator" type="button" value="/" onclick="bagi()"></input> <!-- untuk memanggil fungsi bagi() ketika button "/" di klik oleh user -->
+    <br>
+    <input class="finalResult" type="text" id="result" placeholder="hasil"> <!-- untuk menampilkan hasil result dengan value total -->
+</body>
+</html>
