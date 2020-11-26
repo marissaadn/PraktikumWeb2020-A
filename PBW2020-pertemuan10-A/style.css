@@ -1,0 +1,46 @@
+/* untuk mendesain class button yaitu mengatur border, lebar, tinggi, margin, warna latar, dan jenis font */
+.button{
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin: 20px 50px 30px 710px;
+    background-color: lightgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* untuk mendesain class paragraph yaitu mengatur jenis font dan margin */
+.paragraph{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 150px 50px 30px 630px;
+}
+/* untuk mendesain form yaitu mengatur margin kiri, lebar, tinggi, ukuran font, dan jenis font */
+form{
+    margin-left: 605px;
+    width: 25%;
+    height: 50%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* untuk mendesain input yaitu mengatur lebar, tinggi, border, margin bawah, warna latar, dan jenis font */
+input{
+    width: 80%;
+    line-height: 30px;
+    border-radius: 8px;
+    margin-bottom: 7px;
+    background-color: lightgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* untuk mendesain table yaitu mengatur lebar, tinggi, border, margin kiri, dan jenis font */
+table{
+    margin-left: 400px;
+    border-radius: 5px;
+    width: 50%;
+    line-height: 35px;
+    border-color: darkblue;
+    border-width: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* untuk mendesain body yaitu mengatur warna latar belakang halaman web */
+body{
+    background-color: beige;
+}
