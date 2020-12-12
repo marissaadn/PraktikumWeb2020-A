@@ -1,0 +1,68 @@
+body {
+  background-color: #e0e0e0;
+  line-height: 1.5;
+}
+
+.card {
+  border-radius: 0;
+  border: 0;
+}
+
+.mt-12 {
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+}
+
+.border-box {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(171, 169, 169, 0, 06);
+}
+
+header {
+  margin: 10px;
+  text-align: center;
+}
+
+.container {
+  padding: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.login {
+  border-color: #00BFA6;
+  background-color: #00BFA6;
+  color: white;
+  font-weight: bold;
+  font-family: 'OpenSans-Reguler', sans-serif;
+}
+
+.login:hover {
+  border-color: #00BFA6;
+  background-color: #f7f7f7;
+  color: #00BFA6;
+  font-weight: bold;
+  font-family: 'OpenSans-Reguler', sans-serif;
+}
+
+.label {
+  color: #818181;
+}
+
+.navbar{
+  min-height: 61px;
+  max-height: 61px;
+  background: rgb(240, 240, 240);
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.navbar a{
+  color: rgb(54, 54, 54);
+  text-transform: uppercase;
+  font-family: 'OpenSans-Reguler', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
